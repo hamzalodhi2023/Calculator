@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #333;
+  background: #37b5b6;
 }
 
 .calculator {
@@ -33,10 +33,10 @@ body {
   line-height: 100px;
   padding: 0 20px;
   border-radius: 10px;
-  background: #a7af7c;
+  background: #f2f597;
   text-align: right;
   font-size: 1.5rem;
-  color: #fff;
+  color: #000;
   overflow: hidden;
   box-shadow: inset 0 6px 1px 0 rgba(0, 0, 0, 0.35),
     0 5px 5px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.35);
@@ -62,10 +62,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #999;
+  color: #fff;
   border: 1px solid #222;
   border-radius: 6px;
-  background: linear-gradient(#555353, #363535);
+  background: linear-gradient(#1a3da7, #0a1d56);
   box-shadow: inset 0 6px 1px 0 rgba(0, 0, 0, 0.35),
     0 5px 5px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.35);
   cursor: pointer;
@@ -83,7 +83,7 @@ body {
   box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.35),
     inset 0 5px 15px 0 rgba(0, 0, 0, 0.5),
     inset 0 5px 15px 0 rgba(0, 0, 0, 0.35);
-  text-shadow: 0 0 5px #219cf3, 0 0 8px #219cf3;
+  text-shadow: 0 0 10px #0095ff, 0 0 8px #0095ff;
 }
 
 .calculator .buttons span#delete {
@@ -99,6 +99,6 @@ body {
 }
 
 .calculator .buttons span#equal {
-  background: #219cf3;
+  background: #37b5b6;
   color: #fff;
 }

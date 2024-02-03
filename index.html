@@ -10,25 +10,26 @@
     <div class="calculator">
       <div class="buttons">
         <input id="value" type="text" />
-        <span id="delete">DELETE</span>
-        <span>/</span>
-        <span>*</span>
-        <span>7</span>
-        <span>8</span>
-        <span>9</span>
-        <span>-</span>
-        <span>4</span>
-        <span>5</span>
-        <span>6</span>
-        <span id="plus">+</span>
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span>0</span>
-        <span>00</span>
-        <span>.</span>
-        <span id="equal">=</span>
+        <span onclick="clsData()" id="delete">DELETE</span>
+        <span onclick="storeData('/')">/</span>
+        <span onclick="storeData('*')">*</span>
+        <span onclick="storeData('7')">7</span>
+        <span onclick="storeData('8')">8</span>
+        <span onclick="storeData('9')">9</span>
+        <span onclick="storeData('-')">-</span>
+        <span onclick="storeData('4')">4</span>
+        <span onclick="storeData('5')">5</span>
+        <span onclick="storeData('6')">6</span>
+        <span onclick="storeData('+')" id="plus">+</span>
+        <span onclick="storeData('1')">1</span>
+        <span onclick="storeData('2')">2</span>
+        <span onclick="storeData('3')">3</span>
+        <span onclick="storeData('0')">0</span>
+        <span onclick="storeData('00')">00</span>
+        <span onclick="storeData('.')">.</span>
+        <span onclick="calData()" id="equal">=</span>
       </div>
     </div>
   </body>
+  <script src="main.js"></script>
 </html>
